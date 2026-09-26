@@ -373,6 +373,32 @@ body {
   color: var(--danger);
 }
 
+.build-house-daily-ad {
+  margin: 1.5rem auto 0;
+  padding: 0 1.25rem;
+  max-width: 960px;
+  width: 100%;
+}
+
+.build-house-daily-ad__link {
+  display: block;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  outline-offset: 3px;
+}
+
+.build-house-daily-ad__link:focus-visible {
+  outline: 2px solid var(--rose);
+}
+
+.build-house-daily-ad__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
 .app-footer {
   margin-top: auto;
   padding: 1.5rem 1.25rem 2rem;
