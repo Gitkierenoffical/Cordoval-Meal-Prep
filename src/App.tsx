@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { BackupControls } from './components/BackupControls'
 import { ConfirmDialog } from './components/ConfirmDialog'
+import { BuildHouseDailyAd } from './components/BuildHouseDailyAd'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import { PersistWarning } from './components/PersistWarning'
@@ -105,6 +106,7 @@ function App() {
         </div>
       </main>
 
+      <BuildHouseDailyAd />
       <Footer />
 
       <ConfirmDialog
